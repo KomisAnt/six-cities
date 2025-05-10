@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/six-cities/static/css/main.2e662a65.css",
+    "main.js": "/six-cities/static/js/main.80a14796.js",
+    "index.html": "/six-cities/index.html",
+    "main.2e662a65.css.map": "/six-cities/static/css/main.2e662a65.css.map",
+    "main.80a14796.js.map": "/six-cities/static/js/main.80a14796.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e662a65.css",
+    "static/js/main.80a14796.js"
+  ]
+}
