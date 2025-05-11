@@ -17,8 +17,6 @@ const getFormatDate = (date: string): string => {
 
 function ReviewItem({ comment, date, rating, user }: ReviewItemProps): JSX.Element {
 
-  // console.log('ReviewItem - UPDATE')
-
   return (
     <li className="reviews__item">
       <div className="reviews__user user">

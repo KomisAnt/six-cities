@@ -12,7 +12,7 @@ import ReviewItem from '../../components/review-item/review-item';
 import Map from '../../components/map/map';
 import BookmarkButton from '../../components/bookmark-button/bookmark-button';
 
-import { MAX_STARS_COUNT, MAX_PERCENT_STARS_WIDTH, AutorizationStatus, AppRoute } from '../../const';
+import { MAX_STARS_COUNT, MAX_PERCENT_STARS_WIDTH, AutorizationStatus } from '../../const';
 import { fetchHotelPropertyData, fetchNearbyOffersData, fetchRoomComments } from '../../redux/api-actions';
 import { getAutorizationStatus } from '../../redux/slices/user-actions-slice';
 import { getNearbyOffers, getRoomComments, getRoomOffer } from '../../redux/slices/offers-data-slice';
@@ -150,7 +150,7 @@ function PropertyScreen(): JSX.Element {
                 <h2 className="property__host-title">Meet the host</h2>
                 <div className="property__host-user user">
                   <div className="property__avatar-wrapper property__avatar-wrapper--pro user__avatar-wrapper">
-                    <img className="property__avatar user__avatar" src={`${AppRoute.Root}/${room.host.avatarUrl}`} width="74" height="74" alt={room.host.name} />
+                    <img className="property__avatar user__avatar" src={`{basename}/${room.host.avatarUrl}`} width="74" height="74" alt={room.host.name} />
                   </div>
                   <span className="property__user-name">
                     {room.host.name}
