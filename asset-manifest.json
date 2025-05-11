@@ -7,7 +7,7 @@
     "main.b1f46c47.js.map": "/six-cities/static/js/main.b1f46c47.js.map"
   },
   "entrypoints": [
-    "/six-cities/static/css/main.2e662a65.css",
-    "/six-cities/static/js/main.b1f46c47.js"
+    "static/css/main.2e662a65.css",
+    "static/js/main.b1f46c47.js"
   ]
 }
