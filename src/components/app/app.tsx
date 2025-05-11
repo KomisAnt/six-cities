@@ -18,7 +18,7 @@ function App(): JSX.Element {
   const userAutorizationStatus = useSelector(getAutorizationStatus);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/six-cities/'>
       <Routes>
         <Route
           path={AppRoute.Root} element={<MainScreen />}
